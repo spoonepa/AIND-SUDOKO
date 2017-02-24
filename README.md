@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: In this case added a mechanism to identify twins in every unit and then within the unit remove the occurences of the twin values 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: To the unit list add a couple of more units reprsenting the diagnol units.
 
 ### Install
 
