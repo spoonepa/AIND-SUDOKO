@@ -3,7 +3,8 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: In this case added a mechanism to identify twins in every unit and then within the unit remove the occurences of the twin values 
+A:Constant propagation is a process where better exploitation of constraints reduces the need to make decisions and the process where we determine how values of one variable impact values of another variable. In case of Naked Twins the presense of two boxes with the same two number and none other would eliminate these numbers from any other cell in the unit. 
+Thus added a mechanism to identify twins in every unit and then within the unit remove the occurences of the twin values.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
